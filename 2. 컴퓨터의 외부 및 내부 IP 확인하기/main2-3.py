@@ -1,4 +1,4 @@
-#컴퓨터의 외부 및 내부 IP 확인하기
+#2. 컴퓨터의 외부 및 내부 IP 확인하기
 #컴퓨터 외부 IP 알아보는 코드 만들고 실해
 import requests
 import re

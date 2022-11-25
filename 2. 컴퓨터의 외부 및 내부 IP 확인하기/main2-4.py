@@ -1,4 +1,4 @@
-#컴퓨터의 외부 및 내부 IP 확인하기
+#2. 컴퓨터의 외부 및 내부 IP 확인하기
 #내부, 외부 IP 한 번에 출력하는 코드 만들고 실행
 import socket
 import requests

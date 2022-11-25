@@ -1,5 +1,5 @@
 #QR코드 생성기
-#[qr코드모음.txt]을 읽어 한 줄 한 줄 표시하는 프로그램
+#[qr코드모음.txt]을 읽어온 주소로 qr코드 생성하고 저장
 import qrcode
 from PIL import Image
 
@@ -11,9 +11,3 @@ with open(file_path, 'rt', encoding='UTF8') as f:
         line = line.strip()  #line.strip()은 줄 마지막줄에 줄바꿈 문자를 삭제
         print(line)
 
-        qr_data = line
-        qr_img = qrcode.make(qr_data)
-
-        # save_path = '4. QR코드 생성기\\' + qr_data + '.png'
-        save_path = qr_data + '.png'
-        qr_img.save(save_path)
