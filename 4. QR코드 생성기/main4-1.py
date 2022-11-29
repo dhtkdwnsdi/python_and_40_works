@@ -1,4 +1,4 @@
-#QR코드 생성기
+#QR코드 생성 코드 만들고 실행
 import qrcode
 from PIL import Image
 

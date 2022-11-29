@@ -1,4 +1,3 @@
-#QR코드 생성기
 #[qr코드모음.txt]을 읽어온 주소로 qr코드 생성하고 저장
 import qrcode
 from PIL import Image

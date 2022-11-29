@@ -1,4 +1,4 @@
-#QR코드 생성기
+#여러 개의 QR코드를 한 번에 생성하는 코드 만들고 실행
 #[qr코드모음.txt]을 읽어 한 줄 한 줄 표시하는 프로그램
 import qrcode
 from PIL import Image
